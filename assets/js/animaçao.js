@@ -38,24 +38,25 @@ scrollReveal.reveal(
 
   { interval: 200 }
 )
-//BOTTOM
-const scrollRevealBottom = ScrollReveal({
-  origin: 'bottom',
-  distance: '60px',
-  duration: 700,
-  reset: true
-})
+// //BOTTOM
+// const scrollRevealBottom = ScrollReveal({
+//   origin: 'bottom',
+//   distance: '60px',
+//   duration: 700,
+//   reset: true
+// })
 
-scrollRevealBottom.reveal(
-  `
-   #resol-code .wrapper,
-   #depoimento .blocos-depoimentos, #depoimento .blocos-depoimentos
+// scrollRevealBottom.reveal(
+//   `
+   
+//    #depoimento .blocos-depoimentos, #depoimento 
+//    .blocos-depoimentos
    
   
-  `,
+//   `,
 
-  { interval: 200 }
-)
+//   { interval: 200 }
+// )
 
 // LEFT
 const scrollRevealLeft = ScrollReveal({
@@ -89,3 +90,19 @@ scrollRevealRight.reveal(
 
   { interval: 200 }
 )
+
+
+
+const menuMobile = document.querySelector('.menu-mobile')
+
+menuMobile.addEventListener('click', ()=> {
+  const opan = document.querySelector('#menu-mobileOpwn')
+  opan.style.display = 'flex'
+})
+
+function closeMenuMobile() {
+  let close = document.querySelector('#menu-mobileOpwn')
+
+  close.style.display = 'none'
+
+}
