@@ -180,13 +180,14 @@ margin-top: 40px;
 #home .bloco-2  {
   width:455px;
   height:548px;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-left: 10px;
   margin-left: 40px;
 }
 
 #home .bloco-2 img  {
-  margin-top: -65px;
+  margin-top: -20px;
+  width: 217px;
 }
 
 #home .bloco-2 img::after {
@@ -219,6 +220,7 @@ margin-top: 40px;
       color: #dadada;
       font-weight: 700;
       font-family: 'Open Sans', sans-serif;
+      color: #e4aa48;
 }
 
 #home .bloco-3 p {
@@ -293,6 +295,11 @@ margin-top: 40px;
 #about .bloco-2--about p {
   font-family: 'Nunito', sans-serif;
   color: #dadada;
+}
+
+#about .bloco-2--about p span {
+  color: #e4aa48;
+  font-weight: 700;
 }
 
 #about .slider-skill {
@@ -799,7 +806,7 @@ margin-top: 40px;
   color: rgb(255, 255, 255);
 }
 #contato .info-area-contato{
-  width: 1040px;
+  /* width: 1040px; */
   height: 225px;
   margin: auto;
   display: flex;
@@ -1752,7 +1759,7 @@ filter: brightness(1.2);
 
   /* === about === */
   #about {
-    height:780px
+    height:800px
   }
   #about .bloco-2--about {
     margin-left: 11px;
@@ -3649,7 +3656,7 @@ filter: brightness(1.2);
 
   /* === about === */
   #about {
-    height:802px
+    height:861px;
   }
   #about .bloco-2--about {
     margin-left: 11px;
@@ -4043,7 +4050,7 @@ filter: brightness(1.2);
 
   /* === about === */
   #about {
-    height:801px
+    height:862px;
   }
   #about .bloco-2--about {
     margin-left: 11px;
